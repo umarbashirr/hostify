@@ -214,3 +214,99 @@ export const pricingPackageData = [
 		],
 	},
 ];
+
+export const FooterLists = [
+	{
+		id: 1,
+		area: 'second',
+		title: 'Services',
+		subLinks: [
+			{
+				id: 1,
+				text: 'Domain',
+				url: '/',
+			},
+			{
+				id: 2,
+				text: 'Shared Hosting',
+				url: '/',
+			},
+			{
+				id: 3,
+				text: 'Cloud Hosting',
+				url: '/',
+			},
+			{
+				id: 4,
+				text: 'Private Hosting',
+				url: '/',
+			},
+		],
+	},
+	{
+		id: 2,
+		area: 'third',
+		title: 'Hosting',
+		subLinks: [
+			{
+				id: 1,
+				text: 'Cheap Hosting',
+				url: '/',
+			},
+			{
+				id: 2,
+				text: 'Hosting Wordpress',
+				url: '/',
+			},
+			{
+				id: 3,
+				text: 'Email Hosting',
+				url: '/',
+			},
+			{
+				id: 4,
+				text: 'Hosting Unlimited',
+				url: '/',
+			},
+		],
+	},
+	{
+		id: 3,
+		title: 'Company',
+		area: 'forth',
+		subLinks: [
+			{
+				id: 1,
+				text: 'About',
+				url: '/',
+			},
+			{
+				id: 2,
+				text: 'Career',
+				url: '/',
+			},
+			{
+				id: 3,
+				text: 'Contact Us',
+				url: '/',
+			},
+		],
+	},
+	{
+		id: 4,
+		title: 'Help',
+		area: 'fifth',
+		subLinks: [
+			{
+				id: 1,
+				text: 'FAQ',
+				url: '/',
+			},
+			{
+				id: 2,
+				text: 'Help Support',
+				url: '/',
+			},
+		],
+	},
+];

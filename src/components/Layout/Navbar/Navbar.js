@@ -1,12 +1,12 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import brandLogo from '../../../images/logo.png';
 import { navbarLinks as links } from '../../../utils.js/utils';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { FaBars } from 'react-icons/fa';
 
 function Navbar() {
-	const { t, i18n } = useTranslation();
+	// const { t, i18n } = useTranslation();
 
 	return (
 		<nav className='sticky top-0 left-0 h-20  flex items-center justify-center  text-sm font-semibold capitalize bg-white z-50'>
