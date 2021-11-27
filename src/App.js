@@ -9,7 +9,7 @@ function App() {
 			<Hero />
 			<About />
 			<Services />
-			{/* <Pricing /> */}
+			<Pricing />
 		</div>
 	);
 }
