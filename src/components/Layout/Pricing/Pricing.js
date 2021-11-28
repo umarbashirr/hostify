@@ -7,11 +7,11 @@ function Pricing() {
 
 	return (
 		<section className=' m-auto container px-8 md:px-0 my-12 lg:my-24'>
-			<h2 className='text-center font-bold text-5xl leading-snug'>
+			<h2 className='text-center font-bold text-3xl  md:text-5xl leading-snug'>
 				Ready to get started with <br />
 				Lemon Wares?
 			</h2>
-			<p className='text-center text-3xl mt-6'>
+			<p className='text-center text-xl md:text-3xl mt-6'>
 				Choose the package that suits you
 			</p>
 			<div className='duration-btn-container flex justify-center items-center gap-2 mt-8'>
