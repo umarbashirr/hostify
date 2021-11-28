@@ -3,9 +3,9 @@ import React from 'react';
 import brandLogo from '../../../images/logo.png';
 import { navbarLinks as links } from '../../../utils.js/utils';
 import { AiOutlinePhone } from 'react-icons/ai';
-import { FaBars } from 'react-icons/fa';
+import { FaBars, FaTimes } from 'react-icons/fa';
 
-function Navbar() {
+function Navbar({ sidebarOpen, setSidebarOpen }) {
 	// const { t, i18n } = useTranslation();
 
 	return (
@@ -30,8 +30,11 @@ function Navbar() {
 						+91 7889737464
 					</a>
 				</div>
-				<button className='navtoggle text-2xl block md:hidden'>
-					<FaBars />
+				<button
+					className='navtoggle text-2xl block md:hidden'
+					onClick={() => setSidebarOpen(!sidebarOpen)}
+				>
+					{!sidebarOpen ? <FaBars /> : <FaTimes />}
 				</button>
 			</div>
 		</nav>
@@ -40,7 +43,7 @@ function Navbar() {
 
 export default Navbar;
 
-const NavMenu = () => {
+export const NavMenu = () => {
 	return (
 		<React.Fragment>
 			{links.map((link) => {

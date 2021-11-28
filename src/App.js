@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import {
 	About,
@@ -6,14 +6,18 @@ import {
 	Footer,
 	Hero,
 	Navbar,
+	Sidebar,
 	Pricing,
 	Services,
 } from './components';
 
 function App() {
+	const [sidebarOpen, setSidebarOpen] = useState(false);
+
 	return (
 		<div className='App'>
-			<Navbar />
+			<Navbar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+			<Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 			<Hero />
 			<About />
 			<Services />
